@@ -1,0 +1,96 @@
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+.nav{
+    float: right;
+    margin-top: -6%;
+    padding-inline-start: 14px 23px;
+    list-style: none;
+}
+.nav a{
+    padding: 32px 55px;
+    font-size: 33px;
+    list-style:none;
+    text-decoration: none;
+    color: black;
+    
+}
+.nav a:hover{
+ background-color:pink;
+
+}
+.header{
+    background-color:yellow;
+    font-size: 30px;
+
+
+}
+.container .heading{
+    position: absolute;
+    top: 30%;
+    color:teal;
+     font-size: 40px;
+}
+.container button{
+    position: absolute;
+    top: 50% ;
+    left: 70%;
+    padding: 20px 40px;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: salmon;
+    
+
+}
+.container button:hover{
+    background-color: purple;
+}
+
+.main-content li{
+    float: left;
+    
+    list-style: none;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding-left: 20px;
+    margin-left: 4%;   
+
+}
+.main-content p{
+    color: teal;
+
+
+}
+
+.main-footer{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    height:auto;
+    padding:25px;
+}
+.footer-box{
+    float:left;
+    display:inline-block ;
+    padding: 36px 88px;
+    
+}
+.clearfix{
+    clear: both;
+}
+.footer-box{
+    color:yellow;
+}
+.footer-box h3{
+    color: white;
+    margin-bottom: 8%;
+}
+.footer .social-media{
+    color: yellow;
+}
+<script>function myFunction(){
+    document.getElementById("btn").innerHTML="TechnoDwar";
+} </script>
